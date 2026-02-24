@@ -1,0 +1,137 @@
+
+/* ==== What We Do ==== */
+
+.what-we-do{
+     margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 14px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+
+    margin: 10px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    border: solid 2px #224477 ;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #0005;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+ .card-header{
+    margin: 0;
+    padding: 2px 2px;
+    height: 50px;
+    align-content: center;
+
+    color: #fff;
+    background-color: #224477;
+
+    text-align: center;
+ }
+
+ .card-description{
+    color: white;
+    background-color: #224477;
+
+    margin: 0;
+    padding: 0 20px 20px;
+    height: 50px;
+ }
+ 
+.symbol{
+     background-color: #224477;
+}
+
+ .card-item{
+    margin:  20px auto 12px auto;
+    padding: 2px 2px;
+    height: 50px;
+    width: 50px;
+    
+    align-content: center;
+
+    color: #F7A542;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 15px;
+
+
+    text-align: center;
+ }
+
+ /* ==== HISTORY ==== */
+.history-section{
+      margin-top: 20px;
+}
+
+.team-card{
+    width: 100%;
+    margin: 0;
+    max-width: 100%;
+    order: 1;
+}
+
+.team-card-image{
+    margin-top: 20px;
+
+    width: 100%;
+    height: auto;
+    display: block;
+
+    border-top: solid #224477;
+}
+
+.team-caption{
+    background: #224477;
+    color: white;
+    padding: 6px 10px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: smaller;
+
+}
+
+@media (min-width: 768px){
+
+  main{
+        max-width: 1050px;
+        margin: 0 auto;
+        padding: 0 16px;
+        box-sizing: border-box;
+  }
+
+  .history-section{
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 30px;
+        align-items: center;
+  }
+}
+
+@media (min-width: 1024px){
+  .card-container{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+  }
+
+}
+
+
+
+
+
